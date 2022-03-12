@@ -1,4 +1,7 @@
+SDK=~/PlaydateSDK-1.9.0
+PDC=$(SDK)/bin/pdc
+
 make_game:
-	~/PlaydateSDK-1.9.0/bin/pdc -sdkpath ~/PlaydateSDK-1.9.0 ../lunarpunk
+	$(PDC) -sdkpath $(SDK) ../lunarpunk
 clean:
 	rm -r ../lunarpunk.pdx
