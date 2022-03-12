@@ -3,5 +3,7 @@ PDC=$(SDK)/bin/pdc
 
 make_game:
 	$(PDC) -sdkpath $(SDK) ../lunarpunk
-clean:
+	rm ../lunarpunk.pdx/makefile
+	rm ../lunarpunk.pdx/README.md
+rm:
 	rm -r ../lunarpunk.pdx
