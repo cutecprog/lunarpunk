@@ -1,7 +1,6 @@
-name=Template
-author=You, Inc.
-description=A basic game template.
-bundleID=com.yourcompany.TemplateGame
-version=1.0
-buildNumber=100
+name=lunarpunk
+author=freefowl
+description=Isometric action rpg
+bundleID=io.itch.freefowl
+version=0.0
 imagePath=SystemAssets
