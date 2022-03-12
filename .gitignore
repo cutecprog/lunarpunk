@@ -1,2 +1,2 @@
 # ignore png files
-**/logs
+**.png
