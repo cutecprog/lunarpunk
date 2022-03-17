@@ -1,6 +1,6 @@
 name=lunarpunk
 author=freefowl
 description=Isometric action rpg
-bundleID=io.itch.freefowl
+bundleID=io.itch.freefowl.lunarpunk
 version=0.0
 imagePath=SystemAssets

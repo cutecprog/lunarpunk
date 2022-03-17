@@ -1,9 +1,10 @@
 SDK=~/PlaydateSDK-1.9.0
 PDC=$(SDK)/bin/pdc
+GAME=$(SDK)/Disk/Games
 
 make_game:
-	$(PDC) -sdkpath $(SDK) ../lunarpunk
-	rm ../lunarpunk.pdx/makefile
-	rm ../lunarpunk.pdx/README.md
+	$(PDC) -sdkpath $(SDK) . $(GAME)/lunarpunk.pdx
+	rm $(GAME)/lunarpunk.pdx/makefile
+	rm $(GAME)/lunarpunk.pdx/README.md
 rm:
-	rm -r ../lunarpunk.pdx
+	rm -r $(GAME)/lunarpunk.pdx
